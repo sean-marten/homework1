@@ -13,6 +13,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position: absolute;
+    width: 100%;
 }
 
 .mainheader h1 {
@@ -48,11 +50,10 @@ p {
 }
 
 .hero img {
-    height: 800px;
+    height: 915px;
     width: 100%;
+    margin-top: 38px;
     margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
 }
 
 .float-left {
@@ -153,13 +154,17 @@ p {
     font-size: 36px;
 }
 
-.footer {
+.copyrightInfo {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.copyrightInfo h2 {
     font-size: 20px;
+}
+
+.copyrightInfo small {
+    font-size: 16px;
 }
