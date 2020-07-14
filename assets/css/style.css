@@ -1,133 +1,217 @@
+
+/**
+External CSS Stylesheet
+ **/
+
+ /*
+ ===All Content=== 
+ */
 * {
+    /* Positioning */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
-.mainheader {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.mainheader h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.mainheader h1 .seo {
-    color: #d9dcd6;
-}
-
-.mainheader .subheaders {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    list-style-type: none;
-}
-
-.mainheader .subheaders li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
+    /* Typography */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* Typography */
     font-size: 16px;
 }
 
-.hero img {
+/*
+--All Body-- 
+ */
+body {
+    /* Visual */
+    background-color: #d9dcd6;
+}
+
+/*
+--Headers-- 
+ */
+.mainheader {
+    /* Box-model */
+    padding: 20px;
+
+    /* Typography */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+
+    /* Visual */
+    background-color: #2a607c;
+}
+
+.mainheader h1 {
+    /* Typography */
+    font-size: 48px;
+
+    /* Positioning */
+    display: inline-block;
+}
+
+.mainheader h1 .seo {
+    /* Typography */
+    color: #d9dcd6;
+}
+
+.mainheader .subheaders {
+    /* Box-model */
+    padding-top: 15px;
+    margin-right: 20px;
+
+    /* Positioning */
+    float: right;
+    list-style-type: none;
+
+    /* Typography */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.mainheader .subheaders li {
+    /* Box-model */
+    margin-left: 25px;
+
+    /* Positioning */
+    display: inline-block;
+}
+
+
+/*
+--Background image-- 
+ */
+.meeting img {
+    /* Box-model */
     height: 800px;
     width: 100%;
+
+    /* Positioning */
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*
+-- Main Content-- 
+ */
 .content {
+    /* Positioning */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .sectionContent {
-    margin-bottom: 20px;
+    /* Box-model */
     padding: 50px;
     height: 300px;
+
+    /* Positioning */
+    margin-bottom: 20px;
+
+    /* Typography */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
+
+    /* Visual */
+    background-color: #0072bb;
 }
 
 .sectionContent img {
+    /* Box-model */
     max-height: 200px;
 }
 
 .sectionContent h2 {
+    /* Positioning */
     margin-bottom: 20px;
+
+    /* Typography */
     font-size: 36px;
 }
 
+.float-left {
+    /* Positioning */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* Positioning */
+    float: right;
+    margin-left: 25px;
+}
+
+/* 
+--Side Content--
+*/
 .benefits {
-    margin-right: 20px;
-    margin-bottom: 32px;
+    /* Box-model */
     padding: 20px;
     clear: both;
     float: right;
+
+    /* Positioning */
+    margin-right: 20px;
+    margin-bottom: 32px;
     width: 20%;
     height: 100%;
+
+    /* Typography */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
+
+    /* Visual */
     background-color: #2589bd;
 }
 
 .benefits h3 {
+    /* Positioning */
     margin-bottom: 10px;
+
+    /* Typography */
     text-align: center;
 }
 
 .benefits p {
+    /* Positioning */
     margin-bottom: 32px;
 }
 
 .benefits img {
+    /* Box-model */
     display: block;
-    margin: 10px auto;
     max-width: 150px;
+
+    /* Positioning */
+    margin: 10px auto;
 }
 
+/*
+--Footer-- 
+ */
 .copyrightInfo {
+    /* Box-model */
     padding: 30px;
     clear: both;
+
+    /* Typography */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 .copyrightInfo h2 {
+    /* Typography */
     font-size: 20px;
 }
 
 .copyrightInfo small {
+    /* Typography */
     font-size: 16px;
 }
