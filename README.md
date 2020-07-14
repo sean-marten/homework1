@@ -1,6 +1,6 @@
 # Code Refactor
 
-This repository contains refactored code of a functioning webpage describing SEO for a company as part of a homework assignment for UC Berkeley Coding Bootcamp. 
+This repository contains refactored code of a functioning webpage describing Search Engine Optimization (SEO) for a company as part of a homework assignment for UC Berkeley Coding Bootcamp. 
 
 ## Improvements
 
