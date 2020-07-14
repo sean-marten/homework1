@@ -13,13 +13,13 @@ This project will show improvements to the code base in the follwoing ways:
 * Descriptive comments and sectioning of all files in the project.
 * Minor bug fixes (primarily fixed the links to sections on the page).
 
-## Images of Webpage
-![screenshot](./assets/images/headers-and-background.png)
-![screenshot](./assets/images/main-and-side-content.png)
-![screenshot](./assets/images/footer.png)
-
 ## Github links
 
 [Homework-1 Github Repository](https://github.com/sean-marten/homework1)
 
 [Homework-1 Webpage](https://sean-marten.github.io/homework1/)
+
+## Image of Webpage
+![screenshot](./assets/images/headers-and-background.png)
+![screenshot](./assets/images/main-and-side-content.png)
+![screenshot](./assets/images/footer.png)
